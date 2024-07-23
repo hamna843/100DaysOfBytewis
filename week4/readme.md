@@ -3,3 +3,6 @@ https://colab.research.google.com/drive/1W2msWqmDYrKCSZsKW5wiynYJZcICsyAk?usp=sh
 
 GOOGLE COLAB LINK TO TASK 11
 https://colab.research.google.com/drive/13ZSz2hnj8pBmR2TaskX3pz4dsQJ0TQnE?usp=sharing
+
+GOOLGE COLAB LINK TO TASL 12
+https://colab.research.google.com/drive/1ttava1G1ASik-iZ3SHNM3p9ifBJk1Zco?usp=sharing
