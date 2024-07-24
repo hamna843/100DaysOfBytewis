@@ -6,3 +6,6 @@ https://colab.research.google.com/drive/13ZSz2hnj8pBmR2TaskX3pz4dsQJ0TQnE?usp=sh
 
 GOOLGE COLAB LINK TO TASL 12
 https://colab.research.google.com/drive/1ttava1G1ASik-iZ3SHNM3p9ifBJk1Zco?usp=sharing
+
+GOOGLE COLAB LINK TO TASL 13
+https://colab.research.google.com/drive/1DFYgkX5Uljdyxux5_Forr_TWmluE5ATK?usp=sharing
