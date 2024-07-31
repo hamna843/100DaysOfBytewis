@@ -15,3 +15,6 @@ https://colab.research.google.com/drive/13S7ZOdOLktaf5Ss6tgEZDTeH3T7LfgX_?usp=sh
 
 GOOGLE COLAB LINK TO TASL 15
 https://colab.research.google.com/drive/1MaGHWqAQAPZNBNuU1AaiPDh6oFvNp5E0?usp=sharing
+
+GOOGLE COLAB LINK TO TASK 16
+https://colab.research.google.com/drive/1yvpP7ZrMg6qKkCfjH-bkXb630jZl3k3T?usp=sharing
