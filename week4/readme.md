@@ -24,3 +24,6 @@ https://colab.research.google.com/drive/1CoRTT-HLjR6mrTGUtqgr3ViNI-OXMaBq?usp=sh
 
 GOOGLE COLAB LINK TO TASK 18
 https://colab.research.google.com/drive/1O52ltXOdNfZ_mmGAnWfPOhlMdk_hl_Tz?usp=sharing
+
+GOOGLE COLAB LINK TO TASK 19
+https://colab.research.google.com/drive/1Xq6SPARzsGGSfAmRYoUMmuYP95x7ag8w?usp=sharing
