@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rice Disease Detection</title>
+</head>
+<body>
+    <h1>RICE DIEASE CLASSIFICATION </h1>
+    <h2>Upload Image for Classification</h1>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <label for="file">Upload Image:</label>
+        <input type="file" name="file" id="file" required>
+        <button type="submit">Predict</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script>
+        const form = document.getElementById('uploadForm');
+        const resultDiv = document.getElementById('result');
+
+        form.onsubmit = async (event) => {
+            event.preventDefault();
+
+            // Clear previous results
+            resultDiv.innerHTML = '';
+
+            // Check if a file is selected
+            const fileInput = document.getElementById('file');
+            if (!fileInput.files.length) {
+                resultDiv.innerHTML = '<p style="color:red;">Please upload an image file.</p>';
+                return;
+            }
+
+            const formData = new FormData(form);
+
+            try {
+                // Send the image to the backend
+                const response = await fetch('/predict', {
+                    method: 'POST',
+                    body: formData,
+                });
+
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+
+                const result = await response.json();
+                resultDiv.innerHTML = `<pre>${JSON.stringify(result, null, 2)}</pre>`;
+            } catch (error) {
+                resultDiv.innerHTML = `<p style="color:red;">Error: ${error.message}</p>`;
+            }
+        };
+    </script>
+</body>
+</html>
